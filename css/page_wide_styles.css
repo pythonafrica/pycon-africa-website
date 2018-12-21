@@ -1,0 +1,53 @@
+body {
+  	/* The image used */
+  	background-image: url("../img/loo.png");
+
+    width: 100%;
+    height: 750px;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+}
+
+footer {
+/*  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  position:re;
+  width: 100%;*/
+
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: blue;
+   color: white;
+   text-align: center;
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+main {
+    width: 70%;
+    margin:0 auto;
+   /* padding-top: 200px;*/
+}
+
+.navbar-brand {
+    padding: 4px 15px;
+}
+
+a {
+    color: #FFD44e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
