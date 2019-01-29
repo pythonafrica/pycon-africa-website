@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+body{
+
+
+ margin-right: auto;
+  margin-left:  auto;
+  max-width: auto;
+  padding-right: 10px;
+  padding-left:  10px;
+
+  /*background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+
+main{
+  margin-top: 350px;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+ul{
+  position: absolute;
+  width: 900px; height: 50px;
+  top: 10%; left: 35%;
+  margin-top: -25px; margin-left: -300px;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+  
+}
+
+li{
+  position: relative;
+  font-family: 'Roboto';
+  font-size: 20px;
+  display: inline-block;
+  padding: 0px 20px;
+  color: #FFD44e;
+}
+
+a{
+  text-decoration: none;
+  color: #FFD44e;
+}
+
+
+
+.about-Pycon-Africa{
+  margin: 0;
+  padding: 0;
+  boz-sizing: border-box;
+  font-family: "Open Sans", sans-serif
+}
+
+.link{
+  position: relative;
+}
+
+.link:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #fff;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+ 
+.link:hover:after{
+  width: 100%;
+  left: 0;
+  background: #3F79A8;
+}
+
+.overlay{
+    color: #1E1E1E;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(30,30,30,100%);
+    z-index: 10;
+}
+
+.logo{
+  display: block;
+ margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.tagline{
+position: absolute;
+text-align: center;
+left: 23.39%;
+right: 15.42%;
+top: 85%;
+bottom: 75.36%;
+
+font-family: 'Roboto';
+font-size: 20px;
+
+color: #FFFFFF;
+}
+
+.logo{
+position: absolute;
+left: 40%;
+right: 30.31%;
+top: 55%;
+bottom: 77.65%;
+}
+
+
+
+.date{
+position: absolute;
+left: 48.59%;
+right: 38.39%;
+top: 92%;
+font-style: bold;
+bottom: 73.48%;
+font-family: 'Roboto';
+font-size: 15px;
+color:  #fff;
+}
+
+.month{
+  position: absolute;
+left: 47%;
+right: 38.39%;
+top: 95%;
+bottom: 80%;
+font-family: 'Roboto';
+color: #FFD44E;
+}
+
+.year{
+position: absolute;
+left: 50%;
+right: 40.78%;
+top: 102%;
+bottom: 73.48%;
+font-family: 'Roboto';
+font-size: 15px;
+color:  #fff;
+}
+
+.title{
+  color: #3F79A8;
+  font-style: 'Roboto';
+
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3F79A8;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  color: #fff;
+  text-align: right;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.social-media{
+  text-align: center;
+}
+
+.footer-logo{
+  align-self: left;
+}
