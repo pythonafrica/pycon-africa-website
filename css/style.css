@@ -16,6 +16,47 @@ body{
   background-size: cover;*/
 }
 
+header {
+    background-color: #3782AE;
+    border-bottom: 1px solid transparent;
+}
+
+header {
+    background-color: #181818;
+    /*position: fixed;*/
+    width: 100%;
+    padding: 0;
+    z-index: 9999;
+}
+
+.wrapper {
+    width: 920px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 20px;
+}
+
+header .logo {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin: 10px 0;
+}
+
+#menu {
+    margin: 0;
+    float: right;
+    padding: 20px 0;
+}
+
+ul {
+    line-height: 180%;
+    padding-left: 20px;
+    margin: 10px 0;
+     position: absolute;
+  width: 750px; height: 50px;
+  top: 10%; left: 25%;
+}
 
 main{
   margin-top: 350px;
@@ -24,24 +65,12 @@ main{
   padding: 20px;
 }
 
-ul{
-  position: absolute;
-  width: 900px; height: 50px;
-  top: 10%; left: 35%;
-  margin-top: -25px; margin-left: -300px;
-  padding: 0px;
-  list-style: none;
-  text-align: center;
-  
-}
 
 li{
-  position: relative;
   font-family: 'Roboto';
   font-size: 20px;
   display: inline-block;
   padding: 0px 20px;
-  color: #FFD44e;
 }
 
 a{
@@ -95,6 +124,10 @@ a{
  margin-left: auto;
   margin-right: auto;
   width: 50%;
+  position: absolute;
+
+top: 55%;
+bottom: 77.65%;
 }
 
 .tagline{
@@ -109,14 +142,6 @@ font-family: 'Roboto';
 font-size: 20px;
 
 color: #FFFFFF;
-}
-
-.logo{
-position: absolute;
-left: 40%;
-right: 30.31%;
-top: 55%;
-bottom: 77.65%;
 }
 
 

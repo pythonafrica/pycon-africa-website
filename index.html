@@ -2,7 +2,12 @@
 <html>
 <head>
 	<title>Pycon Africa</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+
 	<link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
@@ -10,125 +15,147 @@
 </head>
 
 <body>
-  <div class="nav-menu">
-<ul>
-  <li><a class="link" href="index.html">Home</a></li>
-  <li><a class="link" href="tickets.html">Tickets</a></li>
-  <li><a class="link" href="sponsors.html">Sponsors</a></li>
-  <li><a class="link" href="about.html">About</a></li>
-  <li><a class="link" href="conduct.html">Conduct</a></li>
-  <li><a class="link" href="sign_in.html">Sign in / Sign up</a></li>
-</ul>
-</div>
-
-<img src="images/background.png" class="overlay">
-<img src="images/logo1.png" class="logo" >
-<h1 class="date"><strong>6TH - 11TH</strong></h1>
-<h1 class="month">AUGUST</h1>
-<h1 class="year"><strong>2019</strong></h1>
-<h1 class="tagline"><strong>The first Pan-African</strong> Gathering of the Python communities</h1>
-
-
-<main>
-
-<p class="about-Pycon-Africa">PyCon Africa will bring together hundreds of Python programmers from around Africa and the world, for five days of talks, workshops and collaboration in Accra, Ghana, 6th-10th August 2019.</p>
-<br>
-<p class="about-Pycon-Africa">PyCon Africa is the first pan-African gathering of the Python community on using and developing the Python programming language. The conference is organised and run by a multi-national team of volunteers, chaired by <a href="#"><strong>Marlene Mhangami</strong></a>, a director of the <a href="https://python.org"><strong>Python Software Foundation</strong></a>.  PyCon features talks and workshops by professionals and experts in their fields from around the world. 
-</p>
-<br>
-<h1 class="title"> >>>What to<strong> expect</strong></h1><br>
-  <div class="flex flex-wrap -m-3"> 
-  <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
-    <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
-      <div class="bg-cover h-48" style="background-image: url(images/3.JPG);"></div>
-      <div class="p-4 flex-1 flex flex-col" style="">
-        <h4><strong>Tutorial:</strong> <span>August 6 - 7 | Mon - Tue</span></h4>
-        <div class="mb-4 text-grey-darker text-sm flex-1">
-          <br>
-          <p>Hands-on workshops and tutorials to develop skills, led by experts in the field. </p>
+    <div class="container">
+    <header>
+      
+        <div class="wrapper">
+      
+          <!-- Add your logo -->
+          <img class="logo" src="images/logo.png" alt="Logo" />
+      
+          <!-- Menu -->
+          <div class="nav-menu">
+            <ul id="menu">
+              <li><a class="link" href="index.html">Home</a></li>
+              <li><a class="link" href="tickets.html">Tickets</a></li>
+              <li><a class="link" href="sponsors.html">Sponsors</a></li>
+              <li><a class="link" href="about.html">About</a></li>
+              <li><a class="link" href="conduct.html">Conduct</a></li>
+              <li><a class="link" href="sign_in.html">Sign in / Sign up</a></li>
+            </ul>
+          </div>
+      
+          
+      
         </div>
-        <a  class="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide" style=""></a>
-      </div>
-    </div>  
-  </div>
+
+
+
+      
+    </header>
   
-  <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
-    <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
-      <div class="bg-cover h-48" style="background-image: url(images/1.JPG);"></div>
-      <div class="p-4 flex-1 flex flex-col" style="">
-         <h4><strong>Sprints:</strong> <span>August 8 - 9 | Wed - Thu</span></h4>
-        <div class="mb-4 text-grey-darker text-sm flex-1">
-          <br>
-          <p>Collaboration on new and established open-source Python projects.</p>
+
+    <img src="images/background.png" class="overlay">
+    <img src="images/logo1.png" class="logo" style="left: 35%;
+    right: 30.31%;">
+    <h1 class="date"><strong>6TH - 11TH</strong></h1>
+    <h1 class="month">AUGUST</h1>
+    <h1 class="year"><strong>2019</strong></h1>
+    <h1 class="tagline"><strong>The first Pan-African</strong> Gathering of the Python communities</h1>
+
+
+    <main>
+
+      <p class="about-Pycon-Africa">PyCon Africa will bring together hundreds of Python programmers from around Africa and the world, for five days of talks, workshops and collaboration in Accra, Ghana, 6th-10th August 2019.</p>
+      <br>
+      <p class="about-Pycon-Africa">PyCon Africa is the first pan-African gathering of the Python community on using and developing the Python programming language. The conference is organised and run by a multi-national team of volunteers, chaired by <a href="#"><strong>Marlene Mhangami</strong></a>, a director of the <a href="https://python.org"><strong>Python Software Foundation</strong></a>.  PyCon features talks and workshops by professionals and experts in their fields from around the world. 
+      </p>
+      <br>
+      <h1 class="title"> >>>What to<strong> expect</strong></h1><br>
+        <div class="flex flex-wrap -m-3"> 
+        <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
+            <div class="bg-cover h-48" style="background-image: url(images/3.JPG);"></div>
+            <div class="p-4 flex-1 flex flex-col" style="">
+              <h4><strong>Tutorial:</strong> <span>August 6 - 7 | Mon - Tue</span></h4>
+              <div class="mb-4 text-grey-darker text-sm flex-1">
+                <br>
+                <p>Hands-on workshops and tutorials to develop skills, led by experts in the field. </p>
+              </div>
+              <a  class="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide" style=""></a>
+            </div>
+          </div>  
         </div>
-        <a  class="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide" style=""></a>
-      </div>
-    </div>  
-  </div>
-
-   <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
-    <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
-      <div class="bg-cover h-48" style="background-image: url(images/2.JPG);"></div>
-      <div class="p-4 flex-1 flex flex-col" style="">
-       <h4><strong>Talks:</strong> <span>August 10 - 11 | Fri - Sat</span></h4>
-        <div class="mb-4 text-grey-darker text-sm flex-1">
-          <br>
-          <p>A full programme of talks on technical and other topics relevant to Python programmers in Africa.</p>
+        
+        <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
+            <div class="bg-cover h-48" style="background-image: url(images/1.JPG);"></div>
+            <div class="p-4 flex-1 flex flex-col" style="">
+              <h4><strong>Sprints:</strong> <span>August 8 - 9 | Wed - Thu</span></h4>
+              <div class="mb-4 text-grey-darker text-sm flex-1">
+                <br>
+                <p>Collaboration on new and established open-source Python projects.</p>
+              </div>
+              <a  class="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide" style=""></a>
+            </div>
+          </div>  
         </div>
-        <a class="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide" style=""></a>
-      </div>
-    </div>  
-  </div>
-  <br>
-  <br>
-<h1 class="title"> >>>Spon<strong>sors</strong></h1><br>
-<p class="about-Pycon-Africa">The companies and organizations who sponsor PyCon make the conference possible, and get to connect with a wide array of Python programmers.</p><br>
-  <br>
- 
-  <button class="bg-transparent  hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded" 
-  style="display: block; margin: 0 auto;"><a class="donated"href="#">Apply to Sponsor!</a></button>
+
+        <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
+            <div class="bg-cover h-48" style="background-image: url(images/2.JPG);"></div>
+            <div class="p-4 flex-1 flex flex-col" style="">
+            <h4><strong>Talks:</strong> <span>August 10 - 11 | Fri - Sat</span></h4>
+              <div class="mb-4 text-grey-darker text-sm flex-1">
+                <br>
+                <p>A full programme of talks on technical and other topics relevant to Python programmers in Africa.</p>
+              </div>
+              <a class="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide" style=""></a>
+            </div>
+          </div>  
+        </div>
+        <br>
+        <br>
+      <h1 class="title"> >>>Spon<strong>sors</strong></h1><br>
+      <p class="about-Pycon-Africa">The companies and organizations who sponsor PyCon make the conference possible, and get to connect with a wide array of Python programmers.</p><br>
+        <br>
+      
+        <button class="bg-transparent  hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded" 
+        style="display: block; margin: 0 auto;"><a class="donated"href="#">Apply to Sponsor!</a></button>
 
 
 
 
-</main>
-<footer class="footer-distributed">
+    </main>
 
+    <footer class="footer-distributed">
+    
       <div class="footer-left">
         <img src="images/sds.png">
-      
-      </div>
-
-      <div class="footer-center">
-       
-        <p class="footer-company-about">
-           <span>Contact us</span>
-         </p>
-         <div class="footer-icons">
-          <a href="mailto:hello@pyconafrica.pycon.org">hello@africa.pycon.org</a> 
+    
       </div>
     
-</div>
+      <div class="footer-center">
+    
+        <p class="footer-company-about">
+          <span>Contact us</span>
+        </p>
+        <div class="footer-icons">
+          <a href="mailto:hello@pyconafrica.pycon.org">hello@africa.pycon.org</a>
+        </div>
+    
+      </div>
       <div class="footer-right">
-
+    
         <p class="footer-company-about">
           <span>Get Social</span>
         </p>
-
+    
         <div class="footer-icons">
-      <a href="https://instagram.com/pyconafrica" class="fa fa-instagram"></a>
-      <a href="https://facebook.com/pyconafrica" class="fa fa-facebook"></a>
-      <a href="https://twitter.com/pyconafrica" class="fa fa-twitter"></a>
-
+          <a href="https://instagram.com/pyconafrica" class="fa fa-instagram"></a>
+          <a href="https://facebook.com/pyconafrica" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/pyconafrica" class="fa fa-twitter"></a>
+    
         </div>
-
+    
       </div>
       <br>
       <br>
-      <p style="text-align: center;">Python/Django web hosting for PyCon Africa is generously donated by <a href="https://divio.com">Divio</a> Cloud.</p>
-
+      <p style="text-align: center;">Python/Django web hosting for PyCon Africa is generously donated by <a href="https://divio.com">Divio</a>
+        Cloud.</p>
+    
     </footer>
-
-</body>
+    </div>
+  </body>
 </html>
 
